@@ -124,7 +124,7 @@ namespace UnityEditor.Rendering
             s_TypeMapDirty = false;
         }
 
-        [MenuItem("Window/Analysis/Rendering Debugger", priority = 10005)]
+        [MenuItem("Window/Analysis/Render Pipeline Debugger", priority = 10005)]
         static void Init()
         {
             var window = GetWindow<DebugWindow>();
@@ -529,7 +529,7 @@ namespace UnityEditor.Rendering
         {
             public static float s_DefaultLabelWidth = 0.5f;
 
-            public static GUIContent windowTitle { get; } = new GUIContent("Rendering Debugger");
+            public static GUIContent windowTitle { get; } = new GUIContent("Render Pipeline Debugger");
 
             public static GUIContent resetButtonContent { get; } = new GUIContent("Reset");
 
