@@ -1023,7 +1023,6 @@ namespace UnityEditor.Rendering.HighDefinition.ShaderGraph
             type = KeywordType.Boolean,
             definition = KeywordDefinition.MultiCompile,
             scope = KeywordScope.Global,
-            stages = KeywordShaderStage.FragmentAndRaytracing
         };
 
         public static KeywordDescriptor DirectionalLightmapCombined = new KeywordDescriptor()
@@ -1033,7 +1032,6 @@ namespace UnityEditor.Rendering.HighDefinition.ShaderGraph
             type = KeywordType.Boolean,
             definition = KeywordDefinition.MultiCompile,
             scope = KeywordScope.Global,
-            stages = KeywordShaderStage.FragmentAndRaytracing
         };
 
         public static KeywordDescriptor DynamicLightmap = new KeywordDescriptor()
@@ -1052,7 +1050,7 @@ namespace UnityEditor.Rendering.HighDefinition.ShaderGraph
             type = KeywordType.Boolean,
             definition = KeywordDefinition.MultiCompile,
             scope = KeywordScope.Global,
-            stages = KeywordShaderStage.FragmentAndRaytracing
+            stages = KeywordShaderStage.Fragment,
         };
 
         public static KeywordDescriptor ScreenSpaceShadow = new KeywordDescriptor()
@@ -1343,6 +1341,7 @@ namespace UnityEditor.Rendering.HighDefinition.ShaderGraph
             type = KeywordType.Boolean,
             definition = KeywordDefinition.ShaderFeature,
             scope = KeywordScope.Local,
+            stages = KeywordShaderStage.Fragment
         };
 
         public static KeywordDescriptor TransparentWritesMotionVector = new KeywordDescriptor

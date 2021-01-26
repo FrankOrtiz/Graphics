@@ -2,7 +2,6 @@ using System;
 using System.IO;
 using System.Linq;
 using UnityEditor;
-using UnityEngine.Scripting;
 using UnityEngine.TestTools;
 using UnityEngine.VFX;
 
