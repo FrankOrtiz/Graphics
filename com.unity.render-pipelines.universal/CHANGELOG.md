@@ -19,6 +19,12 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 - Fixed an issue where soft particles did not work with orthographic projection. [case 1294607](https://issuetracker.unity3d.com/product/unity/issues/guid/1294607/)
 - Fixed wrong shader / properties assignement to materials created from 3DsMax 2021 Physical Material. (case 1293576)
 
+### Changed
+- Change Asset/Create/Shader/Universal Render Pipeline/Lit Shader Graph to Asset/Create/Shader Graph/URP/Lit Shader Graph
+- Change Asset/Create/Shader/Universal Render Pipeline/Sprite Lit Shader Graph to Asset/Create/Shader Graph/URP/Sprite Lit Shader Graph
+- Change Asset/Create/Shader/Universal Render Pipeline/Unlit Shader Graph to Asset/Create/Shader Graph/URP/Unlit Shader Graph
+- Change Asset/Create/Shader/Universal Render Pipeline/Sprite Unlit Shader Graph to Asset/Create/Shader Graph/URP/Sprite Unlit Shader Graph
+
 
 ## [11.0.0] - 2020-10-21
 ### Added

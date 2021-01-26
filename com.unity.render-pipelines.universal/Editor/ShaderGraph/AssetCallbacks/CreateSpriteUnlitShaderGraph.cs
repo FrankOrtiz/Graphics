@@ -5,7 +5,7 @@ namespace UnityEditor.Rendering.Universal.ShaderGraph
 {
     static class CreateSpriteUnlitShaderGraph
     {
-        [MenuItem("Assets/Create/Shader/Universal Render Pipeline/Sprite Unlit Shader Graph", false, 300)]
+        [MenuItem("Assets/Create/Shader Graph/URP/Sprite Unlit Shader Graph", false, 304)]
         public static void CreateSpriteUnlitGraph()
         {
             var target = (UniversalTarget)Activator.CreateInstance(typeof(UniversalTarget));

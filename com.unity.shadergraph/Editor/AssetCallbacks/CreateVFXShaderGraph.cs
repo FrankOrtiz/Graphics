@@ -5,7 +5,7 @@ namespace UnityEditor.ShaderGraph
 {
     static class CreateVFXShaderGraph
     {
-        [MenuItem("Assets/Create/Shader/VFX Shader Graph", false, 208)]
+        [MenuItem("Assets/Create/Shader Graph/VFX Shader Graph", false,500)]
         public static void CreateVFXGraph()
         {
             var target = (VFXTarget)Activator.CreateInstance(typeof(VFXTarget));

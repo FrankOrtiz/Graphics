@@ -51,6 +51,16 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 - Change some light unit slider value ranges to better reflect the lighting scenario.
 - Transparent materials created by the Model Importer are set to not cast shadows. ( case 1295747)
 - Change the tooltip for color shadows and semi-transparent shadows (case 1307704).
+- Change Asset/Create/Shader/HD Render Pipeline/Decal Shader Graph to Asset/Create/Shader Graph/HDRP/Decal Shader Graph
+- Change Asset/Create/Shader/HD Render Pipeline/Eye Shader Graph to Asset/Create/Shader Graph/HDRP/Eye Shader Graph
+- Change Asset/Create/Shader/HD Render Pipeline/Fabric Shader Graph to Asset/Create/Shader Graph/HDRP/Decal Fabric Shader Graph
+- Change Asset/Create/Shader/HD Render Pipeline/Eye Shader Graph to Asset/Create/Shader Graph/HDRP/Hair Shader Graph
+- Change Asset/Create/Shader/HD Render Pipeline/Lit Shader Graph to Asset/Create/Shader Graph/HDRP/Lit 
+- Change Asset/Create/Shader/HD Render Pipeline/StackLit Shader Graph to Asset/Create/Shader Graph/HDRP/StackLit Shader GraphShader Graph
+- Change Asset/Create/Shader/HD Render Pipeline/Unlit Shader Graph to Asset/Create/Shader Graph/HDRP/Unlit Shader Graph
+- Change Asset/Create/Shader/HD Render Pipeline/Custom FullScreen Pass to Asset/Create/Shader/HDRP/Custom FullScreen Pass
+- Change Asset/Create/Shader/HD Render Pipeline/Custom Renderers Pass to Asset/Create/Shader/HDRP/Custom Renderers Pass
+- Change Asset/Create/Shader/HD Render Pipeline/Post Process Pass to Asset/Create/Shader/HDRP/Post Process
 
 ## [11.0.0] - 2020-10-21
 

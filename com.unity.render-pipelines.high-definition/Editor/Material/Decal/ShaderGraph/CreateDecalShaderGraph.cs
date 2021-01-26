@@ -3,9 +3,9 @@ using UnityEditor.ShaderGraph;
 
 namespace UnityEditor.Rendering.HighDefinition.ShaderGraph
 {
-    static class CreateDecalShaderGraph
+    static class CreateDecalShaderGraph 
     {
-        [MenuItem("Assets/Create/Shader/HD Render Pipeline/Decal Shader Graph", false, 208)]
+        [MenuItem("Assets/Create/Shader Graph/HDRP/Decal Shader Graph", false, 403)]
         public static void CreateDecalGraph()
         {
             var target = (HDTarget)Activator.CreateInstance(typeof(HDTarget));

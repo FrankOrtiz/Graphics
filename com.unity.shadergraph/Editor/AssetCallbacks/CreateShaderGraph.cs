@@ -4,7 +4,7 @@ namespace UnityEditor.ShaderGraph
 {
     static class CreateShaderGraph
     {
-        [MenuItem("Assets/Create/Shader/Blank Shader Graph", false, 208)]
+        [MenuItem("Assets/Create/Shader Graph/Blank Shader Graph", false, 500)]
         public static void CreateBlankShaderGraph()
         {
             GraphUtil.CreateNewGraph();
